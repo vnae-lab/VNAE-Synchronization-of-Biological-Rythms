@@ -94,7 +94,7 @@ symmetry assumptions.
 ---
 
 
-## Reference
+# Reference
 
 Pereira, D. H. (2025). Riemannian Manifolds of Asymmetric Equilibria: The Victoria-Nash Geometry.
 ---
