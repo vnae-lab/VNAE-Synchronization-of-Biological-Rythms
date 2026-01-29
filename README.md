@@ -56,9 +56,9 @@ curvature**, rather than a classical phase-locking phenomenon.
 
 ## Scope and Limitations
 It is important to highlight some reflections about this framework:
- Abstract dynamical model  
- Structural and geometric interpretation  
- Conceptual and pedagogical example  
+✔️ Abstract dynamical model  
+✔️ Structural and geometric interpretation  
+✔️ Conceptual and pedagogical example  
 
 ✘ Not a physiological model  
 ✘ No clinical or biological claims  
