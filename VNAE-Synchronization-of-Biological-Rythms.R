@@ -17,15 +17,15 @@ phi0 <- runif(N, -pi, pi)
 
 # Time grid
 dt <- 0.01
-T  <- 12
+T  <- 12
 time <- seq(0, T, by = dt)
 
 # Ring coupling Laplacian
 L <- matrix(0, N, N)
 for (i in 1:N) {
-  L[i, i] <- 2
-  L[i, (i %% N) + 1] <- -1
-  L[i, ((i - 2 + N) %% N) + 1] <- -1
+  L[i, i] <- 2
+  L[i, (i %% N) + 1] <- -1
+  L[i, ((i - 2 + N) %% N) + 1] <- -1
 }
 
 # Storage
@@ -34,16 +34,14 @@ Phi[1, ] <- phi0
 
 # Dynamics
 for (t in 2:length(time)) {
-  phi <- Phi[t - 1, ]
-  dphi <- -L %*% phi - theta * phi
-  Phi[t, ] <- phi + dt * dphi
+  phi <- Phi[t - 1, ]
+  dphi <- -L %*% phi - theta * phi
+  Phi[t, ] <- phi + dt * dphi
 }
 
 # Visualization
 matplot(time, Phi, type = "l", lwd = 2,
-        xlab = "Time",
-        ylab = "Phase",
-        main = "Asymmetric Rhythm Synchronization under VNAE")
+        xlab = "Time",
+        ylab = "Phase",
+        main = "Asymmetric Rhythm Synchronization under VNAE")
 grid()
-
-# Paper "Riemannian Manifolds of Asymmetryc Equilibria: The Victoria-Nash Geometry"
