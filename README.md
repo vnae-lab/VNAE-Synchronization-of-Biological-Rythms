@@ -60,9 +60,9 @@ It is important to highlight some reflections about this framework:
 ✔️ Structural and geometric interpretation  
 ✔️ Conceptual and pedagogical example  
 
-✘ Not a physiological model  
-✘ No clinical or biological claims  
-✘ No empirical data fitting  
+❌ Not a physiological model  
+❌ No clinical or biological claims  
+❌ No empirical data fitting  
 
 The model is intentionally minimal to isolate the geometric effect of asymmetric
 dissipation.
