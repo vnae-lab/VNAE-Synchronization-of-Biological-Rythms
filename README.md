@@ -82,7 +82,7 @@ The same structural principle applies to:
 
 ## Implementation
 
-The simulation is implemented in **R**, using:
+The simulation is implemented in **R, Python, Julia, and Matlab**, using:
 
 - explicit Euler integration
 - simple ring network topology
