@@ -54,21 +54,6 @@ curvature**, rather than a classical phase-locking phenomenon.
 
 ---
 
-## Scope and Limitations
-It is important to highlight some reflections about this framework:
-✔️ Abstract dynamical model  
-✔️ Structural and geometric interpretation  
-✔️ Conceptual and pedagogical example  
-
-❌ Not a physiological model  
-❌ No clinical or biological claims  
-❌ No empirical data fitting  
-
-The model is intentionally minimal to isolate the geometric effect of asymmetric
-dissipation.
-
----
-
 ## Relevance
 
 The same structural principle applies to:
